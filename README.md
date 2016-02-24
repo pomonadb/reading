@@ -26,7 +26,8 @@ networks and related works.*
     - Applications and real-world implications of centrality measures: What can
       we actually predict with them? How can we use them to our advantage? How
       accurate are metrics?
-    - Explains a variety of applications 
+    - Explains a variety of applications
+
 3. [Finding Top-k Shortest Path Distance Changes in an Evolutionary Network][3],
     page 130 in print, 143 in pdf. (If link doesn't work, proceedings available
     through the library)
@@ -34,9 +35,29 @@ networks and related works.*
     - Introduces a set of estimation algorithms that provide an efficient way to
       measure these distances without needing to calculate the paths themselves.
     - The estimations calculated (Edge importance, Edge Rank metrics). Also
-      contains static analysis of DBLP and IMDB using these metrics.  Though 
+      contains static analysis of DBLP and IMDB using these metrics.  Though
       their interpretation of the data allows for infinite edge persistence.
+
+4. [Path Problems in Temporal Graphs][4]
+   (Huanhuan Wu, James Cheng, Silu Huang, Yiping Ke, Yi Lu, Yanyan Xu)
+   - As the title implies, more discussions and algorithms pertaining to shortest
+     paths
+   - Includes theoretical and applied results
+
+5. [DBLP — Some Lessons Learned][5] (Michael Ley)
+  - Detailed explanation and background on the DBLP data-set in XML forms
+  - Explains meaning of each entity; not as intuitive as the names
+    of the entities (i.e. `www` can be treated as person)
+  - Synonym and homonym problem with respect to people's names discussed
 
 [1]: http://arxiv.org/pdf/1306.0493v1.pdf
 [2]: https://www.cl.cam.ac.uk/~cm542/phds/johntang.pdf
 [3]: http://download.springer.com.ccl.idm.oclc.org/static/pdf/896/bok%253A978-3-642-22922-0.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-642-22922-0&token2=exp=1456258394~acl=%2Fstatic%2Fpdf%2F896%2Fbok%25253A978-3-642-22922-0.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-3-642-22922-0*~hmac=cdd5353eb909a9a89afb0c260db2fcdb80e7014e6026647e524c6d035164ba67
+[4]: http://www.vldb.org/pvldb/vol7/p721-wu.pdf
+[5]: http://dblp.uni-trier.de/xml/docu/dblpxml.pdf
+
+
+## Contributing New Links
+
+To contribute new links, please make a PR so all participants are notified of
+the additions. Please do not push directly to master.
